@@ -14,9 +14,7 @@ export default function Home() {
           </p>
         </div>
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl ">
-          Chat with your{' '}
-          <span className="text-orange-600">
-            documents
+          Chat with your{' '}<span className="text-orange-600">documents
           </span>{' '}in seconds.
         </h1>
         <p className="mt-5 max-w-pose text-zinc-700 sm:text-lg ">
@@ -142,7 +140,21 @@ export default function Home() {
             </div>
           </li>
         </ol>
-      </div>
+        <div className="mx-auto max-w-6xl px-6 lg:px-8">
+              <div className="mt-16 flow-root sm:mt-24">
+                <div className="-m-2 rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                  <Image
+                    src='/file-upload-preview.jpg'
+                    alt='uploading preview'
+                    width={1419}
+                    height={732}
+                    quality={100}
+                    className="rounded-md bg-white pd-2 sm:pd-8 md:pd-20 shadow-2xl ring-1 ring-gray-900/10"
+                  />
+
+                </div>
+              </div>
+            </div>      </div>
 
     </>
 
